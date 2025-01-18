@@ -9,14 +9,41 @@
     tools:context=".MainActivity">
 
     <!-- Lista de Tarefas -->
-    <ListView
-        android:id="@+id/taskListView"
+    <CheckBox
+        android:id="@+id/checkBox1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"
-        android:paddingBottom="8dp" />
+        android:layout_height="wrap_content"
+        android:text="Acordar cedo"
+        android:textSize="16sp"
+        android:buttonTint="@color/purple_500" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fazer exercício físico"
+        android:textSize="16sp"
+        android:buttonTint="@color/purple_500" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler 30 minutos"
+        android:textSize="16sp"
+        android:buttonTint="@color/purple_500" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estudar programação"
+        android:textSize="16sp"
+        android:buttonTint="@color/purple_500" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organizar a casa"
+        android:textSize="16sp"
+        android:buttonTint="@color/purple_500" />
 
     <!-- Botão para redefinir -->
     <Button
